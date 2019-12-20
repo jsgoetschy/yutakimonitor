@@ -1,5 +1,9 @@
 <?php
 
+# YUTAKI FUNCTIONS 
+# Needs SQLITE3 extension
+# (c) 2019 Js Goetschy
+
 $sqlite = '/home/yutaki/yutaki.db';
 $tbname = 'yutakidata';
 

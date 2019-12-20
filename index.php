@@ -1,4 +1,8 @@
 <?php
+# YUTAKI GRAPHING DATA FROM DATABASE
+# Functions in yutaki_func.php
+# Needs SQLITE3 extension and highcharts
+# (c) 2019 Js Goetschy
   require_once('yutaki_func.php');
 ?>
 <!DOCTYPE HTML>
