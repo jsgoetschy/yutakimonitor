@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.5
 
-# 2019/12/05 (c) Js Goetschy 
+# 2020/03/30 (c) Js Goetschy 
 # Python module to retrieve informations from ModBus gateway Hitachi ATW-MBS-02
 # Connected to a Hitachi Yutaki S Heat Pump, version before 2016
 # -> Change registers if needed !
@@ -13,7 +13,7 @@ import datetime;
 import math;
 
 # Set variables
-gateway = "192.168.0.4"
+gateway = "192.168.0.4" # Standard IP address of ATW-MBS-02
 dbfile = '/home/yutaki/yutaki.db'
 tbname = 'yutakidata'
 

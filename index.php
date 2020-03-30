@@ -2,7 +2,7 @@
 # YUTAKI GRAPHING DATA FROM DATABASE
 # Functions in yutaki_func.php
 # Needs SQLITE3 extension and highcharts
-# (c) 2019 Js Goetschy
+# (c) 2020 Js Goetschy
   require_once('yutaki_func.php');
 ?>
 <!DOCTYPE HTML>
@@ -23,7 +23,7 @@ $(function () {
             zoomType: 'x'
         },
         title: {
-            text: 'Températures Yutaki S 81 Lazare Carnot - Clamart'
+            text: 'Yutaki S Temps'
         },
         subtitle: {
             text: document.ontouchstart === undefined ?
